@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "jest": "^27.4.5"
+  },
+  "name": "familytree",
+  "version": "1.0.0",
+  "main": "familyTree.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinimbrancalhao/familyTree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinimbrancalhao/familyTree/issues"
+  },
+  "homepage": "https://github.com/jinimbrancalhao/familyTree#readme",
+  "description": ""
+}

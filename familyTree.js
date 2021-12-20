@@ -41,4 +41,6 @@ class Family {
 let genOne = new Family('Dale', ['Shayne', 'May'])
 let genTwo = new Family('George', ['Dale', 'Grace'])
 let genThree = new Family('Bob', ['George', 'Amy'])
-console.log(genTwo.childOf())
+console.log(genTwo.parents)
+
+module.exports = Family
