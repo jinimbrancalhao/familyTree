@@ -1,3 +1,5 @@
+// Object literals
+
 const gen1 = {
   name: 'John',
   parents: ['Sam', 'Amy'],
@@ -22,4 +24,21 @@ const gen3 = {
   }
 }
 
-console.log(gen2.childOf())
+console.log(gen3.childOf())
+
+// Class
+
+class Family {
+  constructor(name, parents = []) {
+    this.name = name
+    this.parents = parents
+    this.childOf = function () {
+      return `${this.name} has parents ${this.parents[0]} and ${this.parents[1]}`
+    }
+  }
+}
+
+let genOne = new Family('Dale', ['Shayne', 'May'])
+let genTwo = new Family('George', ['Dale', 'Grace'])
+let genThree = new Family('Bob', ['George', 'Amy'])
+console.log(genTwo.childOf())
